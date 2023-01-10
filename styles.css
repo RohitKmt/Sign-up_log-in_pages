@@ -1,0 +1,211 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, rgb(119, 79, 230), rgb(233, 80, 156));
+    overflow: auto;
+}
+
+.inner-box {
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+    top: 45%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: #ffffffcc;
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px plum;
+    z-index: 2;
+}
+
+.signup-header h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #666666;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.signup-header p {
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+}
+
+.signup-body {
+    margin: 10px 0;
+}
+
+#username {
+    display: block;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-color: rgb(85, 85, 85);
+    width: 300px;
+    height: 33px;
+    align-items: center;
+
+}
+
+#email {
+    display: block;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-color: rgb(85, 85, 85);
+    width: 300px;
+    height: 33px;
+    align-items: center;
+}
+
+#password {
+    display: block;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-color: rgb(85, 85, 85);
+    width: 300px;
+    height: 33px;
+    align-items: center;
+
+}
+
+#password-confirm {
+    display: block;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    border-color: rgb(85, 85, 85);
+    width: 300px;
+    height: 33px;
+    align-items: center;
+}
+
+.form-control {
+    padding: 12px;
+    margin: 20px 5px 20px 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.mas {
+    font-size: 8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 2px;
+
+}
+
+
+.submit[type="submit"] {
+    margin-top: 14px;
+    border: #2f8fc7;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 245px;
+    height: 33px;
+    background-color: #2f8fc7;
+    color: white;
+    font-size: 15px;
+}
+
+.submit[type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgb(36, 99, 151);
+}
+
+.reset {
+    border: #2f8fc7;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 55px;
+    height: 33px;
+    background-color: #2f8fc7;
+    color: white;
+    font-size: 15px;
+}
+
+.reset:hover {
+    cursor: pointer;
+    background-color: rgb(36, 99, 151);
+}
+
+.signup-footer p {
+    text-align: center;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #212121;
+}
+
+.signup-footer button {
+    border: #2f8fc7;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transform: translateX(15%);
+    padding: 5px;
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+    background-color: #2f8fc7;
+    display: block;
+}
+
+.signup-footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.signin-footer button:hover {
+    cursor: pointer;
+    background-color: rgb(36, 99, 151);
+
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top left, #ffffff33, #ffffffff);
+    position: absolute;
+}
+
+.c1 {
+    top: 50px;
+    left: 40px;
+}
+
+.c2 {
+    bottom: 90px;
+    right: 40px;
+}
